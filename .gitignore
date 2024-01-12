@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  package-lock.json
  node_modules/*
  .idea/*
@@ -6,3 +7,13 @@
 
  images/*
  !images/.gitkeep
+=======
+package-lock.json
+node_modules/*
+.idea/*
+.DS_Store
+.env
+
+images/*
+!images/.gitkeep
+>>>>>>> acce7ca4fc72b4bde129c878d7ba80c059dded91
