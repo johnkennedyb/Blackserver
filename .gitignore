@@ -5,6 +5,10 @@
  .DS_Store
  .env
 
+../../.android/
+../../.bash_history
+../../.config/
+
  images/*
  !images/.gitkeep
 =======
