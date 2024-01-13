@@ -6,6 +6,10 @@ const session = require('express-session');
 const app = express();
 const port = 5000;
 
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 // Enable CORS for all routes
 app.use(cors());
 
